@@ -1,10 +1,16 @@
 Package: ismev
-Version: 1.42
-Date: 2018-05-08
+Version: 1.43
+Date: 2025-08-12
 Title: An Introduction to Statistical Modeling of Extreme Values
-Author: Original S functions written by Janet E. Heffernan with R port and R 
-  documentation provided by Alec G. Stephenson.
-Maintainer: Eric Gilleland <ericg@ucar.edu>
+Authors@R: c(person("Eric", "Gilleland", role = "cre", 
+                  email = "eric.gilleland@colostate.edu", 
+                  comment = c(ORCID="0000-0002-8058-7643" ) ),
+             person("Janet E.", "Heffernan", role = "aut" ),
+             person("Alec G.", "Stephenson", role = "ctb" ) ) 
+Author: Eric Gilleland [cre] (ORCID: <https://orcid.org/0000-0002-8058-7643>),
+  Janet E. Heffernan [aut],
+  Alec G. Stephenson [ctb]
+Maintainer: Eric Gilleland <eric.gilleland@colostate.edu>
 Depends: R (>= 2.10.0), mgcv
 Description: Functions to support the computations carried out in
   `An Introduction to Statistical Modeling of Extreme Values' by
@@ -12,8 +18,7 @@ Description: Functions to support the computations carried out in
   groups; maxima/minima, order statistics, peaks over thresholds
   and point processes.  
 License: GPL (>= 2)
-URL: http://www.ral.ucar.edu/~ericg/softextreme.php
-Packaged: 2018-05-08 20:56:39 UTC; ericg
 NeedsCompilation: no
 Repository: CRAN
-Date/Publication: 2018-05-10 22:08:29 UTC
+Packaged: 2025-08-12 13:52:09 UTC; gille
+Date/Publication: 2025-08-20 17:00:15 UTC
